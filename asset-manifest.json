@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.1393e291.css",
-    "main.js": "./static/js/main.c764e063.js",
-    "static/media/slideImg1.png": "./static/media/slideImg1.56e51137b0baeaf8f743.png",
-    "static/media/slideImg3.png": "./static/media/slideImg3.a9af28464f6495ecc786.png",
-    "static/media/slideImg4.png": "./static/media/slideImg4.0676eaeb4c827c12ccc6.png",
-    "static/media/slideImg6.jpg": "./static/media/slideImg6.8c9576a6204d87bf0f95.jpg",
-    "static/media/logooo.png": "./static/media/logooo.1051c193289c4e22e966.png",
-    "index.html": "./index.html",
-    "main.1393e291.css.map": "./static/css/main.1393e291.css.map",
-    "main.c764e063.js.map": "./static/js/main.c764e063.js.map"
+    "main.css": "/shopping-project/static/css/main.1393e291.css",
+    "main.js": "/shopping-project/static/js/main.f88160aa.js",
+    "static/media/slideImg1.png": "/shopping-project/static/media/slideImg1.56e51137b0baeaf8f743.png",
+    "static/media/dataimg4.jpg": "/shopping-project/static/media/dataimg4.ab516f38b2133824f3fa.jpg",
+    "static/media/slideImg3.png": "/shopping-project/static/media/slideImg3.a9af28464f6495ecc786.png",
+    "static/media/dataImg6.jpg": "/shopping-project/static/media/dataImg6.2393de9bc961dcf0944e.jpg",
+    "static/media/dataImg9.jpg": "/shopping-project/static/media/dataImg9.f6d36502c3ce1cb00fd9.jpg",
+    "static/media/dataImg1.jpg": "/shopping-project/static/media/dataImg1.a9d7f046d8348d337561.jpg",
+    "static/media/slideImg4.png": "/shopping-project/static/media/slideImg4.0676eaeb4c827c12ccc6.png",
+    "static/media/dataImg2.jpeg": "/shopping-project/static/media/dataImg2.d3d72c1380f02df94aab.jpeg",
+    "static/media/slideImg6.jpg": "/shopping-project/static/media/slideImg6.8c9576a6204d87bf0f95.jpg",
+    "static/media/dataImg5.jpg": "/shopping-project/static/media/dataImg5.4538087907caff8020e0.jpg",
+    "static/media/dataImg8.jpg": "/shopping-project/static/media/dataImg8.6f21eb1de3e65d26224e.jpg",
+    "static/media/dataImg7.jpg": "/shopping-project/static/media/dataImg7.e198541132fb234bc975.jpg",
+    "static/media/dataImg10.jpg": "/shopping-project/static/media/dataImg10.6333da6a491cbfe93abb.jpg",
+    "static/media/logooo.png": "/shopping-project/static/media/logooo.1051c193289c4e22e966.png",
+    "index.html": "/shopping-project/index.html",
+    "main.1393e291.css.map": "/shopping-project/static/css/main.1393e291.css.map",
+    "main.f88160aa.js.map": "/shopping-project/static/js/main.f88160aa.js.map"
   },
   "entrypoints": [
     "static/css/main.1393e291.css",
-    "static/js/main.c764e063.js"
+    "static/js/main.f88160aa.js"
   ]
 }
