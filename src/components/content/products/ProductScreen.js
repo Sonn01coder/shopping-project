@@ -18,7 +18,7 @@ function ProductScreen(props) {
     return(
         <div className="productScreen">
             <div className="productScreen_wrap">
-                <img src={product.img} alt={product.name} />
+                <img src={require(product.img)} alt={product.name} />
                 <div className="productScreen_info">
                     <h1>{product.name}</h1>
                     <div className="productScreen_rating">

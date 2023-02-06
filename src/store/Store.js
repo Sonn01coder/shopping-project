@@ -46,7 +46,7 @@ function Store(props) {
                     (
                         listCart.map(product => (
                             <div className='store_item' key={product._id}>
-                                <img src={product.img} alt={product.name} className="store_img"/>
+                                <img src={require(product.img)} alt={product.name} className="store_img"/>
                                 <p className='store_name'>{product.name}</p>
                                 <div className='store_count'>
                                     <IoMdRemoveCircleOutline 
