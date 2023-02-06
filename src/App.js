@@ -18,7 +18,7 @@ function App(props) {
         <section className='App'>
           <Nav />
           <Routes>
-            <Route exact path="/" element={<Content />} />
+            <Route exact path="/shopping-project" element={<Content />} />
             <Route path='/cart' element={<Store />} />
             <Route path="/product/:slug" element={<ProductScreen />} />
             <Route path='/login' element={<Login />} />

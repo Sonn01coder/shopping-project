@@ -1,14 +1,14 @@
-import img1 from '/assest/img/dataImg1.jpg';
-import img2 from '/assest/img/dataImg2.jpeg';
-import img3 from '/assest/img/dataImg3.jpeg';
-import img4 from '/assest/img/dataimg4.jpg';
-import img5 from '/assest/img/dataImg6.jpg';
-import img6 from '/assest/img/dataImg5.jpg';
-import img7 from '/assest/img/dataImg6.jpg';
-import img8 from '/assest/img/dataImg7.jpg';
-import img9 from '/assest/img/dataImg8.jpg';
-import img10 from '/assest/img/dataImg9.jpg';
-import img11 from '/assest/img/dataImg10.jpg';
+import img1 from './components/assest/img/dataImg1.jpg';
+import img2 from './components/assest/img/dataImg2.jpeg';
+import img3 from './components/assest/img/dataImg3.jpeg';
+import img4 from './components/assest/img/dataimg4.jpg';
+import img5 from './components/assest/img/dataImg6.jpg';
+import img6 from './components/assest/img/dataImg5.jpg';
+import img7 from './components/assest/img/dataImg6.jpg';
+import img8 from './components/assest/img/dataImg7.jpg';
+import img9 from './components/assest/img/dataImg8.jpg';
+import img10 from './components/assest/img/dataImg9.jpg';
+import img11 from './components/assest/img/dataImg10.jpg';
 const data = {
     products: [
         {   

@@ -68,7 +68,7 @@ function Store(props) {
                     ) : (
                         <div className='store_null'>
                             <p>Giỏ của bạn chẳng có cái gì cả: </p>
-                            <Link to="/" className='store_null-link'> MUA NGAY</Link>
+                            <Link to="/shopping-project" className='store_null-link'> MUA NGAY</Link>
                         </div>
                     )
                 }

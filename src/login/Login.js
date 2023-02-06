@@ -30,7 +30,7 @@ function Login(props) {
         .then(() => { 
             setCheck(check+1)
             setTimeout(()=> {
-                navigate("/")
+                navigate("/shopping-project")
             }, 2000)  
         }) 
         .catch(() => {

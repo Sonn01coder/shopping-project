@@ -26,7 +26,7 @@ function Nav(props) {
         if(search.length > 0) {
             navigate(`/search/${search}`)
         } else {
-            navigate('/')
+            navigate('/shopping-project')
         }
     }
 
@@ -45,7 +45,7 @@ function Nav(props) {
     return (
         <nav>   
             <div className='nav_container'>
-                <Link to='/'>
+                <Link to='/shopping-project'>
                     <span className='nav_logo' onClick={handleOnclickLogo}>
                         <img src={navLogo} alt='' />
                     </span>

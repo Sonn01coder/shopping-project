@@ -9,7 +9,7 @@ function Success(props) {
                 <div className='success_title'>Bạn đã đặt hàng thành công</div>
                 <p >Chúng tôi sẽ liên lạc với bạn thông qua số điện thoại để xác nhận lại đơn hàng</p>
                 <span>Xin chân thành cảm ơn!</span>
-                <Link to="/">
+                <Link to="/shopping-project">
                     <button>Tiếp tục mua hàng</button>
                 </Link>
             </div>
