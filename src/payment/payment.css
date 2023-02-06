@@ -1,0 +1,400 @@
+.pay {
+    transform: translateY(var(--height-header));
+    height: 100vh;
+}
+
+.payment_container {
+    max-width: 1300px;
+    margin: auto ;
+    padding: 20px 0 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment_address {
+    padding: 30px 30px 100px 30px;
+    border: 1px solid rgb(124, 116, 116);
+    border-radius: 7px;
+}
+
+.payment_address p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.payment_input {
+    margin: 15px;
+}
+
+.payment_address-input {
+    border: 1px solid rgb(163, 158, 158);
+    margin: 10px;
+    padding: 13px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.payment_address span {
+    color: rgb(218, 50, 50);
+    font-size: 15px;
+}
+
+.payment_wrap {
+    margin-right: 20px;
+}
+
+.payment_pay {
+    border: 1px solid rgb(163, 158, 158);
+    border-radius: 5px ;
+    padding: 0 20px 10px 30px;
+
+}
+
+.payment_pay p {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px 30px 20px 50px;
+}
+
+.payment_pay-wrap {
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+}
+
+.payment_pay-div {
+    display: flex;
+    align-items: center;
+}
+
+.payment_pay-item {
+    margin: 10px;
+}
+
+.payment_confirm {
+    border: 1px solid rgb(163, 158, 158);
+    border-radius: 5px;
+    padding:10px 20px 10px;
+    margin-top: 20px;
+}
+
+.payment_voucher {
+    padding: 10px;
+}
+
+.payment_voucher-title {
+    font-size: 21px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.payment_voucher-input {
+    margin: 10px;
+}
+
+.payment_voucher-input input {
+    border: 1px solid rgb(163, 158, 158);
+    border-radius: 3px;
+    padding: 10px;
+    width: 350px;
+}
+
+.payment_voucher-input button {
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: rgb(63, 60, 60);
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.payment_voucher-input button:active {
+    opacity: 1;
+}
+
+.payment_init {
+    padding: 20px;
+    margin: 10px;
+}
+
+.pay_init-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.payment_into-money {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.payment_done {
+    border-radius: 3px;
+    background-color: rgb(63, 60, 60);
+    color: var(--color-white);
+    padding: 12px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.payment_done:active {
+    opacity: 1;
+}
+
+#errorPayment {
+    color: red;
+    font-size: 12px;
+    margin: 0 0 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0.8;
+}
+
+/* Responsive  */
+
+@media (min-width: 1024px) and (max-width: 1300px){
+    .payment_container {
+        padding-top: 10px;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .payment_address {
+        padding: 30px 30px 70px;
+    }
+
+    .payment_wrap {
+        margin-right: 10px;
+    }
+    
+    .payment_pay {
+        padding: 0 20px 10px 0;
+    
+    }
+    
+    .payment_pay p {
+        font-size: 23px;
+        font-weight: 600;
+        padding: 30px 20px 20px 20px;
+    }
+    
+    .payment_confirm {
+        border: 1px solid rgb(163, 158, 158);
+        border-radius: 5px;
+        padding:10px 20px 10px;
+        margin-top: 10px;
+    }
+    
+    .payment_voucher {
+        padding: 5px;
+    }
+    
+    .payment_voucher-title {
+        margin-bottom: 10px;
+    }
+    
+    .payment_voucher-input {
+        margin: 5px;
+    }
+    
+    .payment_voucher-input input {
+        padding: 10px;
+        width: 250px;
+    }
+    
+    .payment_init {
+        padding: 20px 10px;
+    }
+}
+
+/*pc */
+
+@media (min-width: 740px) and (max-width:1023px) {
+    .payment_container {
+        padding-top: 8px;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .payment_address {
+        padding: 30px 10px 10px;
+    }
+
+    .payment_input {
+        margin: 5px;
+    }
+    
+    .payment_address-input {
+        margin: 10px 5px;
+        padding: 15px;
+        width: 380px;
+    }
+    .payment_address p {
+        margin-left: 50px;
+    }
+
+    .payment_wrap {
+        margin-right: 10px;
+    }
+
+    
+    .payment_pay {
+        padding: 0 20px 10px 0;
+    
+    }
+    
+    .payment_pay p {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 30px 20px 10px 20px;
+    }
+    
+    .payment_confirm {
+        border: 1px solid rgb(163, 158, 158);
+        border-radius: 5px;
+        padding:10px 20px 10px;
+        margin-top: 10px;
+    }
+    
+    .payment_voucher {
+        padding: 5px;
+    }
+    
+    .payment_voucher-title {
+        margin-bottom: 10px;
+    }
+    
+    .payment_voucher-input {
+        margin: 5px;
+    }
+    
+    .payment_voucher-input input {
+        padding: 10px;
+        width: 170px;
+    }
+    
+    .payment_init {
+        padding: 20px 10px;
+        font-size: 16px;
+    }
+    
+    .pay_init-item{
+        font-size: 16px;
+    }
+
+    .payment_done {
+        padding: 11px;
+        font-size: 17px;
+    }
+
+    .payment_voucher-input button {
+        margin: 0;
+        padding: 10px 8px;
+    }
+}
+
+/* tablet */
+@media  (min-width: 481px) and (max-width: 740px){
+    .payment_container {
+        padding-top: 6px;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .payment_address {
+        padding: 20px 4px 10px;
+    }
+    
+    .payment_input {
+        margin: 2px;
+    }
+    
+    .payment_address-input {
+        margin: 5px 5px;
+        padding: 12px;
+        width: 230px;
+    }
+    .payment_address p {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .payment_wrap {
+        margin-right: 8px;
+    }
+    
+    .payment_pay {
+        padding: 0 20px 10px 0;
+    
+    }
+    
+    .payment_pay p {
+        font-size: 16px;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .payment_pay-wrap {
+        font-size: 14px;
+    }
+
+    .payment_pay-item {
+        font-size: 12px;
+        margin: 10px 5px;
+    }
+    
+    .payment_confirm {
+        border: 1px solid rgb(163, 158, 158);
+        border-radius: 5px;
+        padding:10px 5px 10px;
+        margin-top: 0px;
+    }
+    
+    .payment_voucher {
+        padding: 3px 0px; 
+    }
+    
+    .payment_voucher-title {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    
+    .payment_voucher-input {
+        margin: 10px 0px 5px;
+    }
+    
+    .payment_voucher-input input {
+        padding: 15px 10px;
+        width: 180px;
+    }
+    
+    .payment_init {
+        padding: 10px 8px;
+        font-size: 16px;
+    }
+    
+    .pay_init-item{
+        font-size: 16px;
+    }
+
+    .payment_done {
+        padding: 14px 10px;
+        font-size: 18px;
+    }
+
+    .payment_voucher-input button {
+        margin: 0;
+        padding: 15px 10px;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 480px ) {
+
+}

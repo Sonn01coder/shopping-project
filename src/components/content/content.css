@@ -1,0 +1,33 @@
+main {
+    width: 100%;
+    background-color: rgb(245, 247, 249);
+}
+
+.content {
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+/* Responsive  */
+
+@media (min-width: 1024px) and (max-width: 1300px){
+
+}
+
+/*pc */
+
+@media (min-width: 740px) and (max-width:1023px) {
+
+}
+
+/* tablet */
+@media  (min-width: 481px) and (max-width: 740px){
+
+}
+
+
+/* mobile */
+@media (max-width: 480px ) {
+
+}

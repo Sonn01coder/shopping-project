@@ -1,0 +1,147 @@
+.products_container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.products_list {
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    gap: auto
+}
+
+.product_item {
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(248, 244, 244);
+}
+
+.product_item img {
+    width: 100%;
+    height: 334px;
+    box-shadow: 1px 1px 1px rgb(118, 113, 113);
+}
+
+.product_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_name {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    color: #333;
+}
+
+.product_name:hover {
+    color: red;
+}
+
+.product_price {
+    margin: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.product_btn-shopping {
+    width: 90px;
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    color: var(--color-white);
+    opacity: 0.8;
+    border-radius: 3px;
+    height: 36px;
+}
+
+.product_btn-outOfStock {
+    width: 100px;
+    background-color: red;
+    padding: 10px;
+    color: var(--color-white);
+    border-radius: 3px;
+    height: 36px;
+    opacity: 0.4;
+}
+
+.product_btn-shopping:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.product_shopping-icon {
+    display: none;
+    font-size: 25px;
+    transform: translateX(20px) translateY(-5px);
+}   
+
+.product_btn-shopping:hover .product_shopping-des {
+    display: none;
+}
+
+.product_btn-shopping:hover .product_shopping-icon {
+    display: block;
+}
+
+/* Responsive  */
+
+@media (min-width: 1024px) and (max-width: 1300px){
+    .products_list {
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+    }
+
+    .product_item img {
+        height: 300px;
+    }
+    
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width:1023px) {
+    .products_list {
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+    }
+
+    .product_item img {
+        height: 300px;
+    }
+}
+
+/* mobile */
+@media  (min-width: 481px) and (max-width: 740px){
+    .products_container {
+        margin-top: 10px;
+    }
+
+    .products_list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 350px));
+        gap: auto;
+    }
+
+    .product_item img {
+        height: 200px;
+    }
+
+    .product_btn-shopping {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product_btn-outOfStock {
+        width: 150px;
+    }
+    
+
+}
+
+@media (max-width: 480px ) {
+
+}

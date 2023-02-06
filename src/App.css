@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --background-color: rgba(33, 37, 41);
+  --color-white: white;
+  --height-header: 52px;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.rating span {
+  color: #df1e1e;
+}
+
+.rating span:last-child {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.out-of-stock {
+  opacity: 0.4 !important;
+}
+
+.out-of-stock:hover {
+  cursor: default !important;
+}
+
+/* Responsive  */
+
+@media (min-width: 1024px) {
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width:1023px) {
+    :root {
+    --height-header: 60px;
+}
+}
+
+/* mobile */
+@media  (min-width: 481px) and (max-width: 740px){
+  :root {
+    --height-header: 65px;
+}
+}
+
+@media (max-width: 480px ) {
+  :root {
+    --height-header: 70px
+  }
+}
+
