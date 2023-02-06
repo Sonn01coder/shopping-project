@@ -1,14 +1,14 @@
-import img1 from '/images/dataImg1.jpg';
-import img2 from '/images/dataImg2.jpeg';
-import img3 from '/images/dataImg3.jpeg';
-import img4 from '/images/dataimg4.jpg';
-import img5 from '/images/dataImg6.jpg';
-import img6 from '/images/dataImg5.jpg';
-import img7 from '/images/dataImg6.jpg';
-import img8 from '/images/dataImg7.jpg';
-import img9 from '/images/dataImg8.jpg';
-import img10 from '/images/dataImg9.jpg';
-import img11 from '/images/dataImg10.jpg';
+import img1 from '/assest/img/dataImg1.jpg';
+import img2 from '/assest/img/dataImg2.jpeg';
+import img3 from '/assest/img/dataImg3.jpeg';
+import img4 from '/assest/img/dataimg4.jpg';
+import img5 from '/assest/img/dataImg6.jpg';
+import img6 from '/assest/img/dataImg5.jpg';
+import img7 from '/assest/img/dataImg6.jpg';
+import img8 from '/assest/img/dataImg7.jpg';
+import img9 from '/assest/img/dataImg8.jpg';
+import img10 from '/assest/img/dataImg9.jpg';
+import img11 from '/assest/img/dataImg10.jpg';
 const data = {
     products: [
         {   
