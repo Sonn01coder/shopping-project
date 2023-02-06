@@ -33,7 +33,7 @@ function SearchProduct() {
                             {filteredProducts.map ((product) => (
                             <div key={product.slug} className="searchProduct_item">
                                 <Link to={`/product/${product.slug}`}> 
-                                    <img src={require(product.img)} alt={product.name} />
+                                    <img src={product.img} alt={product.name} />
                                 </Link>
                                 <div className='searchProduct_info'>
                                     <Link to={`/product/${product.slug}`}>

@@ -16,7 +16,7 @@ function Products(props) {
                     data.products.map ((product) => (
                         <div key={product.slug} className="product_item">
                             <Link to={`/product/${product.slug}`}> 
-                                <img src={require(product.img)} />
+                                <img src={product.img} />
                             </Link>
                             <div className='product_info'>
                                 <Link to={`/product/${product.slug}`}>

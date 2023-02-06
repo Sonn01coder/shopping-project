@@ -1,3 +1,14 @@
+import img1 from '/images/dataImg1.jpg';
+import img2 from '/images/dataImg2.jpeg';
+import img3 from '/images/dataImg3.jpeg';
+import img4 from '/images/dataImg4.jpg';
+import img5 from '/images/dataImg6.jpg';
+import img6 from '/images/dataImg5.jpg';
+import img7 from '/images/dataImg6.jpg';
+import img8 from '/images/dataImg7.jpg';
+import img9 from '/images/dataImg8.jpg';
+import img10 from '/images/dataImg9.jpg';
+import img11 from '/images/dataImg10.jpg';
 const data = {
     products: [
         {   
@@ -5,7 +16,7 @@ const data = {
             name:'Áo kaki Quảng Châu',
             slug: 'Ao kaki quang chau',
             category: 'ao',
-            img: '/images/dataImg1.jpg',
+            img: img1,
             price: 199,
             countInStock: 4,
             brand: 'gucci',
@@ -19,7 +30,7 @@ const data = {
             name:'Set đồ ngắn tay',
             slug: 'set do ngan tay',
             category: 'ao, quan',
-            img: '/images/dataImg2.jpeg',
+            img: img2,
             price: 99,
             countInStock: 3,
             brand: 'adidas',
@@ -33,7 +44,7 @@ const data = {
             name:'Set đồ lịch lãng quý ông',
             slug: 'set do lich lang',
             category: 'ao, quan',
-            img: '/images/dataImg3.jpeg',
+            img: img3,
             price: 999,
             countInStock: 0,
             brand: 'adidas',
@@ -47,7 +58,7 @@ const data = {
             name:'Set đồ gút boi ',
             slug: 'set do goodboy',
             category: 'ao, quan',
-            img: '/images/dataImg4.jpg',
+            img: img4,
             price: 250,
             countInStock: 15,
             brand: 'chanel',
@@ -61,7 +72,7 @@ const data = {
             name:'Áo khoác bò',
             slug: 'ao khoac bo',
             category: 'ao',
-            img: '/images/dataImg6.jpg',
+            img: img5,
             price: 88,
             countInStock: 0,
             brand: 'chanel',
@@ -75,7 +86,7 @@ const data = {
             name:'Giay thể thao ',
             slug: 'giay the thao',
             category: 'giay',
-            img: '/images/dataImg5.jpg',
+            img: img6,
             price: 60,
             countInStock: 15,
             brand: 'nike',
@@ -89,7 +100,7 @@ const data = {
             name:'Giày nam',
             slug: 'giay nam fake',
             category: 'giay',
-            img: '/images/dataImg6.jpg',
+            img: img7,
             price: 25,
             countInStock: 8,
             brand: 'nike',
@@ -103,7 +114,7 @@ const data = {
             name:'Giay nam',
             slug: 'boot dep',
             category: 'giay',
-            img: '/images/dataImg7.jpg',
+            img: img8,
             price: 88,
             countInStock: 0,
             brand: 'nike',
@@ -117,7 +128,7 @@ const data = {
             name:'Boot',
             slug: 'boot quang chau',
             category: 'giay',
-            img: '/images/dataImg8.jpg',
+            img: img9,
             price: 79,
             countInStock: 15,
             brand: 'adidas',
@@ -131,7 +142,7 @@ const data = {
             name:'Giày 2',
             slug: 'giay 2',
             category: 'giay',
-            img: '/images/dataImg9.jpg',
+            img: img10,
             price: 99,
             countInStock: 15,
             brand: 'vans',
@@ -145,7 +156,7 @@ const data = {
             name:'Boot tiếp',
             slug: 'boot fake',
             category: 'giay',
-            img: '/images/dataImg10.jpg',
+            img: img11,
             price: 99,
             countInStock: 15,
             brand: 'vans',
