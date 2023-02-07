@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-project/static/css/main.1393e291.css",
-    "main.js": "/shopping-project/static/js/main.f88160aa.js",
+    "main.css": "/shopping-project/static/css/main.f7df2352.css",
+    "main.js": "/shopping-project/static/js/main.9d119dc5.js",
     "static/media/slideImg1.png": "/shopping-project/static/media/slideImg1.56e51137b0baeaf8f743.png",
     "static/media/dataimg4.jpg": "/shopping-project/static/media/dataimg4.ab516f38b2133824f3fa.jpg",
     "static/media/slideImg3.png": "/shopping-project/static/media/slideImg3.a9af28464f6495ecc786.png",
@@ -17,11 +17,11 @@
     "static/media/dataImg10.jpg": "/shopping-project/static/media/dataImg10.6333da6a491cbfe93abb.jpg",
     "static/media/logooo.png": "/shopping-project/static/media/logooo.1051c193289c4e22e966.png",
     "index.html": "/shopping-project/index.html",
-    "main.1393e291.css.map": "/shopping-project/static/css/main.1393e291.css.map",
-    "main.f88160aa.js.map": "/shopping-project/static/js/main.f88160aa.js.map"
+    "main.f7df2352.css.map": "/shopping-project/static/css/main.f7df2352.css.map",
+    "main.9d119dc5.js.map": "/shopping-project/static/js/main.9d119dc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1393e291.css",
-    "static/js/main.f88160aa.js"
+    "static/css/main.f7df2352.css",
+    "static/js/main.9d119dc5.js"
   ]
 }
