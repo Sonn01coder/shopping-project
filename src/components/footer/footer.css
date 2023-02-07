@@ -7,3 +7,7 @@
     background-color: rgb(245, 247, 249);
     border-top: 1px solid rgb(182, 180, 176);
 }
+
+.footer a {
+    color: red;
+}
